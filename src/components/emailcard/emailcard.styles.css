@@ -1,0 +1,35 @@
+.false {
+    color: gray;
+}
+
+#container.active {
+    background-color: #7FC7D9;
+}
+
+#container {
+    cursor: pointer;
+    background-color: #86B6F6;
+    border-style: solid;
+    border-width: thin;
+    width: 260px;
+    padding-left: 1%;
+    font-family: Times New Roman, Helvetica, sans-serif;
+}
+
+#container:hover {
+    background-color: #7FC7D9;
+}
+
+#container:active {
+    background-color: aqua;
+}
+
+
+
+p {
+    margin: 0%;
+}
+
+h3 {
+    margin: 0%;
+}

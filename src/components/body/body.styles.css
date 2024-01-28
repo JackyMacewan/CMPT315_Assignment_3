@@ -1,0 +1,12 @@
+.message {
+    background-color: #4682A9;
+    color: black;
+    padding: 5%;
+    margin: 1%;
+    width: 820px;
+    height: 800px;
+}
+
+hr {
+    color: black;
+}
