@@ -3,6 +3,9 @@
     width: 1200px;
     height: 800px;
     margin: auto;
+}
+
+#c_sidebar {
     overflow-y: scroll;
 }
 

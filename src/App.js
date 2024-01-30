@@ -59,7 +59,7 @@ function App() {
       <h1> Simple React Mail Client </h1>
       <div id = 'searchbar'> <SearchBar placeholder={'Search Sender'} handleInput={handleInput}/> </div>
       <div id = 'content'>
-        <div id = "sidebar"> <SideBar emails ={update_list} cardClick={clickCard}/> </div>
+        <div id = "c_sidebar"> <div id = "sidebar"> <SideBar emails ={update_list} cardClick={clickCard}/> </div> </div>
         <div id = "email_content"> <Message email = {selected_email}/> </div>
       </div>
     </div>
